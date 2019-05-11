@@ -1,0 +1,143 @@
+a {
+    float: left;
+}
+
+p {
+    margin: 10% 0;
+    color: #0000007d;
+    font-weight: bold;
+}
+
+img {
+    border: 2px solid #cccccc6e;
+}
+
+.belt {
+    margin: 0 0 20% 0;
+    cursor: pointer;
+}
+
+.belt span {
+    color: #0000007d;
+    font-weight: bold;
+}
+
+.worldBelt .img {
+    background-image: url(../../../assets/images/belts.svg);
+    width: 100%;
+    background-size: 372%;
+    height: 78px;
+    background-position: -265% 67.6%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.icBelt .img {
+    background-image: url(../../../assets/images/belts.svg);
+    float: left;
+    width: 100%;
+    background-size: 372%;
+    height: 78px;
+    background-position: -183.5% 69%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.worldBeltactive span {
+    color: #d99536;
+}
+
+.worldBeltactive .img {
+    opacity: 1;
+}
+
+.icBeltactive span {
+    color: #319ef1;
+}
+
+.icBeltactive .img {
+    opacity: 1;
+}
+
+.wwfWorldChamp.filterWorld img {
+    border: 2px solid #d99536;
+    opacity: 1;
+}
+
+.wwfIcChamp.filterIc img {
+    border: 2px solid #319ef1;
+    opacity: 1;
+}
+
+.filterIc img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.filterWorld img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.wrestler:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wrestler:hover img {
+    border: 2px solid #0000007d;
+}
+
+.wrestler:hover p {
+    color: #319ef1;
+}
+
+@media only screen and (max-width: 991px) {
+    .worldBelt .img {
+        height: 153px;
+    }
+
+    .icBelt .img {
+        height: 153px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .worldBelt .img {
+        height: 119px;
+    }
+
+    .icBelt .img {
+        height: 119px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .worldBelt .img {
+        height: 70px;
+    }
+
+    .icBelt .img {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 275px) {
+    .worldBelt .img {
+        height: 106px;
+    }
+
+    .icBelt .img {
+        height: 106px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .worldBelt .img {
+        height: 75px;
+    }
+
+    .icBelt .img {
+        height: 75px;
+    }
+}

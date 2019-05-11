@@ -1,0 +1,19 @@
+p {
+    color: #0000007d;
+    font-weight: bold;
+}
+
+img {
+    border: 2px solid #cccccc6e;
+    margin: 0 0 5% 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: #319ef1;
+    color: #FFF;
+}
+
+button:hover {
+    background-color: #d99536;
+}

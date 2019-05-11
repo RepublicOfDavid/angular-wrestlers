@@ -1,0 +1,22 @@
+<div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+        <div (click)="worldBeltClickEvent()" [ngClass]="statusWorld ? 'worldBeltactive' : ''" class="belt worldBelt text-center">
+            <div class="img"></div>
+            <span>World Champions</span>
+        </div>
+    </div>
+    <div class="col col-lg-2">
+        <div (click)="icBeltClickEvent()" [ngClass]="statusIc ? 'icBeltactive' : ''" class="belt icBelt text-center">
+            <div class="img"></div>
+            <span>Intercontinental Champions</span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6 col-sm-6 col-md-4 col-lg-2" *ngFor="let wrestler of wrestlers">
+        <div (click)="onSelect(wrestler)" class="wrestler text-center" [ngClass]="[wrestler.wwfWorldChamp ? 'wwfWorldChamp' : '', wrestler.wwfIcChamp ? 'wwfIcChamp' : '', statusWorld ? 'filterWorld' : '', statusIc ? 'filterIc' : '']">
+            <img src="{{wrestler.imgURL}}" class="rounded">
+            <p text-center>{{wrestler.name}}</p>
+        </div>
+    </div>
+</div>
