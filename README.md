@@ -16,4 +16,4 @@
 
 **Purpose of demo:** Demonstrate a few different methods of filtering.
 
-**View:** [Frontend](https://wrestlers.davidthomas.tech "See the front end in action"), [Files](https://github.com/RepublicOfDavid/wrestlers-development "Go to my Github")cli/blob/master/README.md).
+**View:** [Frontend](https://wrestlers.davidthomas.tech "See the front end in action"), [Files](https://github.com/RepublicOfDavid/wrestlers-development "Go to my Github")
