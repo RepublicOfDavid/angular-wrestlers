@@ -16,9 +16,9 @@
 
 **Purpose of demo:** Demonstrate a few different methods of filtering.
 
-**To run locally**
-- run npm install
-- run ng serve --open
+**To view locally run:**
+- npm install
+- ng serve --open
 The app should then load on http://localhost:4200/
 
 **View:** [Frontend](https://angular-wrestlers.netlify.app "See the front end in action")
