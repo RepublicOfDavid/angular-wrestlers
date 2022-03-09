@@ -17,7 +17,7 @@
 **Purpose of demo:** Demonstrate a few different methods of filtering.
 
 **To run locally**
-- run NPM INSTALL
+- run npm install
 - run ng serve --open
 The app should then load on http://localhost:4200/
 
